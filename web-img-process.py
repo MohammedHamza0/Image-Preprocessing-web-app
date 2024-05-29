@@ -233,7 +233,6 @@ def display_photo_and_message():
     st.markdown("<h2 style='text-align: center; color: #FF5733; font-size: 24px;'>Hello! I'm Mohammed Hamza Moawad Khalifa</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #336699; font-size: 20px;'>A dedicated student at Menofia University's Faculty of Artificial Intelligence, specializing in Machine Intelligence. My passion for machine learning and deep learning drives me to push the boundaries of AI. Proficient in Python, I am eager to contribute to innovative projects and advance the field of artificial intelligence.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #336699; font-size: 20px;'>Beyond technical expertise, I bring strong communication, leadership, and teamwork skills, ensuring effective collaboration and project success. With a commitment to continuous improvement and a knack for time management, I'm excited to engage in transformative AI endeavors.</p>", unsafe_allow_html=True)
-    st.image("https://github.com/MohammedHamza0/Image-Preprocessing-web-app/blob/main/WhatsApp_Image_2024-05-24_at_15.46.54_1f9e93c1-removebg-preview.png", use_column_width=True)
 
 # Custom HTML and CSS for the button styling
 button_style = """
