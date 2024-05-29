@@ -268,8 +268,8 @@ def login():
     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.subheader(" اللهم ارزق إخواننا في فلسطين الصمود والقوة في وجه الطغيان وانصرهم")
     st.title("Login Page")
-    username = st.text_input("# Username")
-    password = st.text_input("# Password", type="password")
+    username = st.text_input("# Username", "Gaza")
+    password = st.text_input("# Password", "123" ,type="password")
 
     if st.button("Login"):
         if username == "Gaza" and password == "123":
