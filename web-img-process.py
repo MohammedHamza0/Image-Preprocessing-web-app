@@ -4,8 +4,7 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 import matplotlib.pyplot as plt
-import speech_recognition as sr
-import pyttsx3
+
 
 
 
@@ -24,10 +23,7 @@ import pyttsx3
 
 
 
-def speak(text):
-    engine = pyttsx3.init()
-    engine.say(text)
-    engine.runAndWait()
+
 
 # Image processing functions
 def plot_histogram(image, title):
